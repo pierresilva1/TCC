@@ -1,0 +1,52 @@
+.equipamentos {
+    background: #D5CBFF;
+    height: 116rem;
+}
+
+.eq{
+    margin-top: 2rem;
+    border-radius: 1.875rem;
+    background: #F0F0F0;
+    width: 28rem;
+    height: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+
+.eqs{
+    display: flex;
+}
+
+.eqss {
+    background: #FFF;
+    border-radius: 1.875rem;
+    width: 86rem;
+    height: 108rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.dp {
+    color: #6D4CF3;
+    font-family: Inter;        
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 3rem;
+}
+
+.dps{
+    color: #331A98;
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.eq img{
+    width: 25rem;
+}
