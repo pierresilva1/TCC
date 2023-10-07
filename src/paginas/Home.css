@@ -1,98 +1,88 @@
-main {
+@media(max-width: 900px) {
+    main {
     background: #D5CBFF;
-    
 }
 
 p{
-    margin-top: 0.8rem;
+    margin-top: 1rem;
     font-family: Inter;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 700;
-    line-height: normal
+    line-height: normal;
 }
 
 h1{
-    padding: 1.5rem;
+    padding: 0.5rem;
     color: #6D4CF3;
     text-align: center;
     font-family: Inter;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
 
 h2{
-    padding: 2rem;
+    padding: 1rem;
     color: #331A98;
     font-family: Inter;
-    font-size: 2rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 h3{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     color: #5930FF;
     text-align: center;
     font-family: Inter;
-    font-size: 2rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .tudo {
-    border-radius: 30px;
+    border-radius: 2rem;
     background: #FFF;
-    width: 86.1875rem;
-    height: 108rem;
+    width: 23rem;
+    height: 110rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .Navegacao {
     border-radius: 1.875rem;
     background: #F0F0F0;
-    width: 77.8125rem;
-    height: 48rem;
+    width: 20rem;
+    height: 29rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10rem;
 }
 
-.btsss {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3rem;
-    
-}
+
 
 .btss {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 3rem;
-    margin-top: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .bts button{
     border-radius: 2.5rem;
     background: #4A2FB5;
-    width: 18rem;
-    height: 12rem;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    width: 12rem;
+    height: 5rem;
+    margin-top: 2.4rem;
 }
 
 button:hover {
@@ -100,11 +90,16 @@ button:hover {
     background: #C2B9E7;
 }
 
+button:hover a {
+    cursor: pointer;
+    color: #6a93e0;
+}
+
 .nos {
     border-radius: 1.875rem;
     background: #4A2FB5;
-    width: 77.8125rem;
-    height: 31rem;
+    width: 20rem;
+    height: 64rem;
     margin-left: auto;
     margin-right: auto;   
 }
@@ -115,49 +110,275 @@ button:hover {
 
 .redes {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 2rem;
 }
 
 .dutra {
-    width: 37rem;
-    height: 21rem;
+    width: 15rem;
+    height: 18rem;
     border-radius: 2.5rem;
     background: #F0F0F0;
     padding: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
 }
 
 .dg {
-    width: 37rem;
-    height: 21rem;
+    width: 15rem;
+    height: 18rem;
     border-radius: 2.5rem;
     background: #F0F0F0;
     padding: 2rem;
-    
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .pierre {
-    width: 37rem;
-    height: 21rem;
+    width: 15rem;
+    height: 18rem;
     border-radius: 2.5rem;
     background: #F0F0F0;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
 }
 
 .pierre img {
-    width: 9rem;
-    height: 9.2rem;
+    width: 8rem;
+    height: 9rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dg img {
-    width: 9rem;
-    height: 9.2rem;
+    width: 8rem;
+    height: 9rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dutra img {
-    width: 9rem;
-    height: 9.2rem;
+    width: 8rem;
+    height: 9rem;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.ah{
+    font-size: 1.4rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    
+}
+
+.insta{
+    color: black;
+    margin-top: 0.8rem;
+    font-family: Inter;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+}
+
+@media(min-width: 900px) {
+    main {
+        background: #D5CBFF;
+    }
+    
+    p{
+        margin-top: 0.8rem;
+        font-family: Inter;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    h1{
+        padding: 1.5rem;
+        color: #6D4CF3;
+        text-align: center;
+        font-family: Inter;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    
+    h2{
+        padding: 2rem;
+        color: #331A98;
+        font-family: Inter;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    h3{
+        padding-bottom: 2rem;
+        color: #5930FF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .tudo {
+        border-radius: 30px;
+        background: #FFF;
+        width: 86.1875rem;
+        height: 87rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .Navegacao {
+        border-radius: 1.875rem;
+        background: #F0F0F0;
+        width: 77.8125rem;
+        height: 34rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10rem;
+    }
+    
+    
+    
+    .btss {
+        display: flex;
+        flex-direction: row;
+        padding: 3rem;
+        margin-top: 3rem;
+    }
+    
+    .bts button{
+        border-radius: 2.5rem;
+        background: #4A2FB5;
+        width: 18rem;
+        height: 12rem;
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 5rem;
+    }
+    
+    button:hover {
+        cursor: pointer;
+        background: #C2B9E7;
+    }
+    
+    button:hover a {
+        cursor: pointer;
+        color: #6a93e0;
+    }
+    
+    .nos {
+        border-radius: 1.875rem;
+        background: #4A2FB5;
+        width: 77.8125rem;
+        height: 31rem;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+    
+    .nos h1 {
+        color: #FFF;
+    }
+    
+    .redes {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+    }
+    
+    .dutra {
+        width: 37rem;
+        height: 21rem;
+        border-radius: 2.5rem;
+        background: #F0F0F0;
+        padding: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dg {
+        width: 37rem;
+        height: 21rem;
+        border-radius: 2.5rem;
+        background: #F0F0F0;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .pierre {
+        width: 37rem;
+        height: 21rem;
+        border-radius: 2.5rem;
+        background: #F0F0F0;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .pierre img {
+        width: 9rem;
+        height: 9.2rem;
+        margin-left: 5rem;
+    }
+    
+    .dg img {
+        width: 9rem;
+        height: 9.2rem;
+        margin-left: 5rem;
+    }
+    
+    .dutra img {
+        width: 9rem;
+        height: 9.2rem;
+        margin-left: 5rem;
+    }
+    
+    .ah{
+        font-size: 2.3rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        
+    }
+    
+    .insta{
+        color: black;
+        margin-top: 0.8rem;
+        font-family: Inter;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+

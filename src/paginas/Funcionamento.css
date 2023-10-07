@@ -1,46 +1,95 @@
-.funcionamento {
-    background: #D5CBFF;
-    height: 51.96rem;
-}
-
-.pfc {
+@media(max-width: 900px) {
+    .funcionamento {
+        background: #D5CBFF;
+    }
     
-    color: #14093E;
-    font-family: Inter;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 4rem;
-}
+    .pfc {
+        
+        color: #14093E;
+        font-family: Inter;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 4rem;
+    }
+    
+    .h1fc {
+        color: #6D4CF3;
+        font-family: Inter;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+          
+    }
+    
+    .fc{
+        margin-top: 6rem;
+        border-radius: 1.875rem;
+        background: #FFF;
+        width: 22rem;
+        height: 58rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    
+    .fcpimg img{
+        width: 17rem;
+        height: 16rem;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    }
 
-.h1fc {
-    color: #6D4CF3;
-    font-family: Inter;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-      
-}
-
-.fc{
-    margin-top: 2rem;
-    border-radius: 1.875rem;
-    background: #FFF;
-    width: 86.1875rem;
-    height: 46rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.fcpimg{
-    display: flex;
-}
-
-.fcpimg img{
-    margin-top: 6rem;
-    width: 35rem;
-    height: 30rem;
-    margin-right: 2rem;
+@media(min-width: 900px) {
+    .funcionamento {
+        background: #D5CBFF;
+        height: 52.5rem;
+    }
+    
+    .pfc {
+        
+        color: #14093E;
+        font-family: Inter;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 4rem;
+    }
+    
+    .h1fc {
+        color: #6D4CF3;
+        font-family: Inter;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+          
+    }
+    
+    .fc{
+        margin-top: 2rem;
+        border-radius: 1.875rem;
+        background: #FFF;
+        width: 86.1875rem;
+        height: 46rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .fcpimg{
+        display: flex;
+    }
+    
+    .fcpimg img{
+        margin-top: 6rem;
+        width: 35rem;
+        height: 30rem;
+        margin-right: 2rem;
+    }
 }

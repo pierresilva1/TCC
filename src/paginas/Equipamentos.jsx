@@ -9,6 +9,10 @@ import peltier from '../img/peltier.png'
 import interruptor from '../img/interruptor.png'
 import adp_bateria from '../img/adp_bateria.png'
 import rele from '../img/rele.png'
+import logo from '../img/logo.png'
+import logos from '../img/logos.png'
+
+
 
 function Equipamento() {
   const [abrirFechar, setAbrirFechar] = useState(false)
@@ -27,27 +31,28 @@ function Equipamento() {
     <header>
         <div className="menu-mobile">
             <div className="botao-menu">
+            <Link to={'/'}><img src={logos} alt="logo" className="logo" /></Link>
                 <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} /> : <List size={32} /> }</button>
             </div>
 
             <div className={`menu ${abrirFechar == true ? "" : "close"}`}>
                 <nav>
-                <Link to={'/'}>Home</Link>
-                <Link to={'/Objetivo'}>Objetivo</Link>
-                <Link to={'/Funcionamento'}>Funcionamento</Link>
-                <Link to={'/Equipamento'}>Equipamento</Link>
+                <Link to={'/'} className="as">Home</Link>
+                <Link to={'/Objetivo'} className="as">Objetivo</Link>
+                <Link to={'/Funcionamento'} className="as">Funcionamento</Link>
+                <Link to={'/Equipamento'} className="as">Equipamento</Link>
                 </nav>
             </div>
         </div>
 
         <div className="menu-desktop">
-            <h1>Acessa aí</h1>
+        <Link to={'/'}><img src={logo} alt="logo" className="logo" /></Link>
 
             <nav>
-                <Link to={'/'}>Home</Link>
-                <Link to={'/Objetivo'}>Objetivo</Link>
-                <Link to={'/Funcionamento'}>Funcionamento</Link>
-                <Link to={'/Equipamento'}>Equipamento</Link>
+                <Link to={'/'} className="as">Home</Link>
+                <Link to={'/Objetivo'} className="as">Objetivo</Link>
+                <Link to={'/Funcionamento'} className="as">Funcionamento</Link>
+                <Link to={'/Equipamento'} className="as">Equipamento</Link>
                 </nav>
         </div>
     </header>
@@ -87,6 +92,7 @@ function Equipamento() {
             </div>
         </section>
         </section>
+        <br />
     </main>
     </>
     )

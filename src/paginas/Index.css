@@ -1,17 +1,28 @@
 .botao-menu {
-    border: 1px solid #ccc;
     height: 4rem;
     padding-inline: 2rem;
     display: flex;
     align-items: center;
 }
 
+.botao-menu button{
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+
+}
+
+.botao-menu a{
+    margin-top: 1rem;
+}
+
 .menu {
-    border: 1px solid #ccc;
+    
     width: 12rem;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 45rem);
+    border-end-end-radius: 8rem;
     padding-right: 2rem;
-    transition: translate .3s;
+    transition: translate .2s;
+    background: #4A2FB5;
 }
 
 .menu nav {
@@ -29,6 +40,37 @@
     display: none;
 }
 
+
+a{
+    font-family: Inter;
+    font-style: normal;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.as{
+    font-size: 1rem;
+    width: 1rem;
+}
+
+.as:hover{
+    color: #6a93e0;
+}
+
+.logo{
+    width: 18rem;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+}
+
+
+
 @media(min-width: 900px) {
     .menu-mobile {
         display: none;
@@ -39,4 +81,34 @@
         justify-content: space-between;
         align-items: center;
     }
+    a{
+        font-family: Inter;
+        font-style: normal;
+        color: #ffff;
+        text-decoration: none;
+    }
+    
+    .as{
+        font-size: 2.5rem;
+        margin-left: 11rem;
+    }
+    
+    .as:hover{
+        color: #6a93e0;
+    }
+    
+    .logo{
+        width: 16rem;
+    }
+    
+    .logo:hover{
+        cursor: pointer;
+    }
+    
+    header{
+        display: flex;
+    }
+    
+    
 }
+
