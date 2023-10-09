@@ -1,7 +1,7 @@
 
 import "./Index.css"
 import "./Home.css"
-
+import Header from "./Header"
 import dg from '../img/dg.png'
 import dutra from '../img/dutra.png'
 import pierre from '../img/pierre.png'
@@ -14,34 +14,32 @@ function Home() {
 
   return (
     <>
+    <Header />
+
     <main>
         <br />
         <section className="tudo">
             <h1>Bem vindo(a)</h1>
-            <h3>Ao nosso projeto: TermoBlend</h3>
+            <h3>Ao nosso projeto</h3>
             <section className="Navegacao">
-                <h2>Navegação</h2>
-                <div className="bts">
-                <div className="btss">
-                   <button ><Link to={'/Objetivo'} className="ah">Objetivo</Link></button>
-                   <button ><Link to={'/Funcionamento'} className="ah">Funcionamento</Link></button>
-                   <button ><Link to={'/Equipamento'} className="ah">Equipamento</Link></button>
-                   </div>
-            </div>
+                <h2>TermoBlend</h2>
+                
+                <p>o TermoBlend é uma caixa com porta copo que esquentara ou gelara a sua bebida</p>
+            
             </section>
             <section className="nos">
                 <h1>Quem somos ?</h1>
                 <div className="redes">
                 <div className="pierre">
                 <img src={pierre} alt="" />
-                <p>Pierre Silva de Sá</p>
+                <p>Pierre Silva</p>
                 <a href="https://www.instagram.com/pierre___silva/" className="insta">@pierre___silva</a>
                 <p>18 anos</p>
                 <p>UNASP SP</p>
                 </div>
                 <div className="dutra">
             <img src={dutra} alt="" />
-                <p>Pedro Henque Dutra</p>
+                <p>Pedro Dutra</p>
                 <a href="https://www.instagram.com/vulgodutra_/" className="insta">@vulgodutra_</a>
                 <p>18 anos</p>
                 <p>UNASP SP</p>
