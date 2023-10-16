@@ -5,7 +5,8 @@ import Header from "./Header"
 import dg from '../img/dg.png'
 import dutra from '../img/dutra.png'
 import pierre from '../img/pierre.png'
-import { Link } from 'react-router-dom'
+import pretatext from '../img/pretatext.png'
+
 
 
 function Home() {
@@ -24,8 +25,9 @@ function Home() {
             <section className="Navegacao">
                 <h2>TermoBlend</h2>
                 
-                <p>o TermoBlend é uma caixa com porta copo que esquentara ou gelara a sua bebida</p>
-            
+                <p>o TermoBlend é uma caixa com porta copo que esquentara ou gelara a sua bebida, fique aqui com o videp de explicação</p>
+                <img src={pretatext} alt="imagem do projeto" />
+
             </section>
             <section className="nos">
                 <h1>Quem somos ?</h1>
