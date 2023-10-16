@@ -8,7 +8,7 @@
     background: #FFF;
     border-radius: 1.875rem;
     width: 22rem;
-    height: 116rem;
+    height: 118rem;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -99,7 +99,7 @@
     .dps{
         color: #331A98;
         font-family: Inter;
-        font-size: 2.4rem;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;

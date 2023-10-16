@@ -97,6 +97,7 @@ header{
     
     .as:hover{
         color: #6a93e0;
+        
     }
     
     .logo{
@@ -106,7 +107,7 @@ header{
     .logo:hover{
         cursor: pointer;
     }
-    
+
     header{
         display: flex;
     }
