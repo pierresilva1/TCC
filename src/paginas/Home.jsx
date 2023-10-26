@@ -3,8 +3,8 @@ import "./Index.css"
 import "./Home.css"
 import Header from "./Header"
 import dg from '../img/dg.png'
-import dutra from '../img/dutra.png'
-import pierre from '../img/pierre.png'
+import dutra from '../img/dutra22.png'
+import pierre from '../img/pierre22.png'
 import pretatext from '../img/pretatext.png'
 
 
@@ -50,7 +50,7 @@ function Home() {
             <img src={dg} alt="" />
                 <p>Caique Dias </p>
                 <a href="https://www.instagram.com/caiquedg_102/" className="insta">@caiquedg_102</a>
-                <p>17 anos</p>
+                <p>18 anos</p>
                 <p>UNASP SP</p>
             </div>
             </div>
