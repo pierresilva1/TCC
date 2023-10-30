@@ -1,0 +1,25 @@
+.bacgroud_fundo{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.bacgroud_mobal{
+    position: fixed;
+    top: 50%;
+    margin-left: 60rem;
+    transform: translate(-50%, -50%);
+    padding: 150px;
+    background-color: #ffff;
+    border-radius: 1rem;
+    color: black;
+}
+
+button{
+    border: none;
+    background: none;
+}
