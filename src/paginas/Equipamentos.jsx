@@ -54,8 +54,12 @@ function Equipamento() {
             <img src={fonte_bivolt} alt="" />
             </div>
             <Peltier_Modal isOpen={openPeltier_Modal} setPeltier_ModalOpen={() => setPeltier_ModalOpen(!openPeltier_Modal)}>
-                
+                <div className="modalsls">
                 <h2 className="dps">Pastilha Termoelétrica Peltier</h2>
+                <img src={peltier} alt="" className="imgmodals"/>
+                <p>A pastilha Peltier é um cooler termoelétrico utilizado em purificadores de água, bebedouros e mini refrigeradores de diversas marcas. Também pode ser empregado em projetos alternativos de refrigeração de computadores. Sua alta performance garante, em poucos minutos, o aquecimento ou resfriamento de objetos.</p>
+                <a href="https://www.eletrogate.com/pastilha-termoeletrica-peltier-tec1-12706" className="amodals">compre aqui</a>
+                </div>
             </Peltier_Modal>
         </section>
         </section>

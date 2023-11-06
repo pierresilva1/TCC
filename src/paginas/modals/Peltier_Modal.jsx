@@ -9,8 +9,11 @@ if (isOpen){
   return (
    <div className="bacgroud_fundo">
     <div className="bacgroud_mobal">
-        <button onClick={setPeltier_ModalOpen}><X size={32} /></button>
-        <div>{children}</div>
+      <div className="conteudo">
+        <button onClick={setPeltier_ModalOpen}><X size={50} /></button>
+        
+        <div className='children'>{children}</div>
+        </div>
     </div>
    </div>
     )
