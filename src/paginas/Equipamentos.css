@@ -46,7 +46,7 @@
 }
 
 .eq img{
-    width: 10rem;
+    width: 12rem;
     margin-top: 2rem;
 }
 }
@@ -107,7 +107,8 @@
     }
     
     .eq img{
-        width: 25rem;
+        width: 17rem;
+        margin-left: 6rem;
     }
 
     
