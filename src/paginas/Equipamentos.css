@@ -48,6 +48,17 @@
 .eq img{
     width: 12rem;
     margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background: none;
 }
 }
 
@@ -110,6 +121,15 @@
         width: 17rem;
         margin-left: 6rem;
     }
+     
+    button{
+        background: none;
+        border: none;
+    }
 
+    button:hover{
+        cursor: pointer;
+        background: none;
+    }
     
 }

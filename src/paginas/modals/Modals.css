@@ -1,3 +1,5 @@
+@media(max-width: 900px) {
+
 .bacgroud_fundo{
     position: fixed;
     top: 0;
@@ -12,9 +14,9 @@
     position: fixed;
     top: 50%;
     width: 60rem;
-    height: 38rem;
+    height: 39rem;
     margin-left: 60rem;
-    transform: translate(-50%, -50%);
+    transform: translate(-98%, -50%);
     background-color: #ffff;
     border-radius: 1rem;
     color: black;
@@ -36,7 +38,7 @@
 }
 
 .imgmodals{
-    width: 25rem;
+    width: 14rem;
 }
 
 .modalsls p{
@@ -62,3 +64,74 @@
     border: none;
     background: none;
 }
+
+}
+
+@media(min-width: 900px) {
+
+    .bacgroud_fundo{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(0, 0, 0, 0.7);
+        z-index: 1000;
+    }
+    
+    .bacgroud_mobal{
+        position: fixed;
+        top: 50%;
+        width: 60rem;
+        height: 39rem;
+        margin-left: 60rem;
+        transform: translate(-50%, -50%);
+        background-color: #ffff;
+        border-radius: 1rem;
+        color: black;
+    }
+    
+    
+    
+    .conteudo{
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+    
+    .amodals{
+        color: black;
+        display: flex;
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    
+    .imgmodals{
+        width: 14rem;
+    }
+    
+    .modalsls p{
+        margin-right: 2rem;
+        margin-top: 0.5rem;
+    }
+    
+    .modalsls h2{
+        margin-left: 9rem;
+    }
+    
+    .modalsls img{
+        margin-left: 13rem;
+    }
+    
+    
+    .modalbutton:hover{
+        cursor: pointer;
+        color: none;
+    }
+    
+    .modalbutton{
+        border: none;
+        background: none;
+    }
+    
+    }

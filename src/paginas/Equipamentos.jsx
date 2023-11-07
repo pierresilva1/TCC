@@ -43,12 +43,12 @@ function Equipamento() {
         </section>
         <section className="eqs">
             <div className="eq">
-            <h2 className="dps">Chave Gangorra com 2 terminais</h2>
-            <button className="mdls" onClick={() => setInterruptor_ModalOpen(true)}><img src={interruptor} alt="" /></button>
+            <h2 className="dps">Chave Gangorra</h2>
+            <button className="mdls" onClick={() => setInterruptor_ModalOpen(true)}><img src={interruptor} className="interruptor" alt="" /></button>
             </div>
             <div className="eq">
             <h2 className="dps">Fonte bivolt</h2>
-            <button className="mdls" onClick={() => setFonte_ModalOpen(true)}><img src={fonte_bivolt} alt="" /></button>
+            <button className="mdls" onClick={() => setFonte_ModalOpen(true)}><img src={fonte_bivolt} className="fonte" alt="" /></button>
             </div>
         </section>
         <section className="eqs">
