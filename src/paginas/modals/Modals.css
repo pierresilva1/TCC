@@ -55,5 +55,10 @@
 
 .modalbutton:hover{
     cursor: pointer;
-    
+    color: none;
+}
+
+.modalbutton{
+    border: none;
+    background: none;
 }
