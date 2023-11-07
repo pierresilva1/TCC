@@ -3,8 +3,8 @@ import "./Index.css"
 import "./Objetivo.css"
 import { Link } from 'react-router-dom'
 import { List, X } from '@phosphor-icons/react'
-import logo from '../img/logo.png'
-import logos from '../img/logos.png'
+import logo from '../img/logo2.png'
+import logos from '../img/logos2.png'
 
 
 

@@ -1,12 +1,12 @@
 
 import "./Index.css"
 import "./Equipamentos.css"
-import p4kre from '../img/p4kre.png'
-import fonte_bivolt from '../img/fonte_bivolt.png'
-import peltier from '../img/peltier.png'
-import interruptor from '../img/interruptor.png'
+import p4kre from '../img/p4kre2.png'
+import fonte_bivolt from '../img/fonte_bivolt2.png'
+import peltier from '../img/peltier2.png'
+import interruptor from '../img/interruptor2.png'
 import adp_bateria from '../img/adp_bateria.png'
-import rele from '../img/rele.png'
+import rele from '../img/rele2.png'
 import Header from "./Header"
 import Peltier_Modal from "./modals/Peltier_Modal"
 import { useState } from 'react'
