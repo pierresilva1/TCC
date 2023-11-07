@@ -20,14 +20,13 @@ function Home() {
     <main>
         <br />
         <section className="tudo">
-            <h1>Bem vindo(a)</h1>
+            <h1>Bem-vindo(a)</h1>
             <h3>Ao nosso projeto</h3>
             <section className="Navegacao">
                 <h2>TermoBlend</h2>
                 
-                <p>o TermoBlend é uma caixa com porta copo que esquentara ou gelara a sua bebida, fique aqui com o videp de explicação</p>
+                <p>o TermoBlend é uma caixa com porta copo que esquentara ou gelara a sua bebida.</p>
                 <img src={pretatext} alt="imagem do projeto" />
-
             </section>
             <section className="nos">
                 <h1>Quem somos ?</h1>
