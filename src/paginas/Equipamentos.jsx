@@ -56,7 +56,8 @@ function Equipamento() {
             <h2 className="dps">Adaptador P4/KRE</h2>
             <button className="mdls" onClick={() => setP4kre_ModalOpen(true)}><img src={p4kre} alt="" /></button>
             </div>
-            <Peltier_Modal isOpen={openPeltier_Modal} setPeltier_ModalOpen={() => setPeltier_ModalOpen(!openPeltier_Modal)}>
+        </section>
+        <Peltier_Modal isOpen={openPeltier_Modal} setPeltier_ModalOpen={() => setPeltier_ModalOpen(!openPeltier_Modal)}>
                 <div className="modalsls">
                 <h2 className="dps">Pastilha Termoelétrica Peltier</h2>
                 <img src={peltier} alt="" className="imgmodals"/>
@@ -97,7 +98,6 @@ function Equipamento() {
                 <a href="https://www.eletrogate.com/chave-gangorra-com-2-terminais" className="amodals">compre aqui</a>
                 </div>
             </Interruptor_Modal>
-        </section>
         </section>
         <br />
     </main>
