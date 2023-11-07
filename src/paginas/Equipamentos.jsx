@@ -11,6 +11,7 @@ import Peltier_Modal from "./modals/Peltier_Modal"
 import Rele_Modal from "./modals/Rele_Modal"
 import P4kre_Modal from "./modals/P4kre_Modal"
 import Fonte_Modal from "./modals/Fonte_Modal"
+import Interruptor_Modal from "./modals/Interruptor_Modal"
 import { useState } from 'react'
 
 
