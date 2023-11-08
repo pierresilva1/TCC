@@ -100,7 +100,7 @@ function Equipamento() {
             </Fonte_Modal>
             <Interruptor_Modal isOpen={openInterruptor_Modal} setInterruptor_ModalOpen={() => setInterruptor_ModalOpen(!openInterruptor_Modal)}>
                 <div className="modalsls">
-                <h2 className="dps">Chave Gangorra com 2 terminais</h2>
+                <h2 className="dps">Chave Gangorra</h2>
                 <img src={interruptor} alt="" className="imgmodals"/>
                 <p>O interruptor é um dispositivo simples criado pelo médico Golding Bird, aproximadamente na década de 1840, utilizado na abertura de circuitos elétricos em redes, tomadas e entradas de aparelhos eletrônicos, basicamente na maioria das situações que envolvem o ligamento ou desligamento de energia elétrica.</p>
                 <br />
