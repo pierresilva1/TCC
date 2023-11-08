@@ -53,7 +53,7 @@
 
 .modalbutton:hover{
     cursor: pointer;
-    color: none;
+    background: #ff8d8df3;
 }
 
 .modalbutton{
@@ -97,10 +97,13 @@
     
     .amodals{
         color: black;
-        display: flex;
         margin-top: 2rem;
         font-size: 1.3rem;
         font-weight: 700;
+    }
+
+    .amodals:hover{
+        color: #6a93e0;
     }
     
     .imgmodals{
@@ -122,7 +125,7 @@
     
     .modalbutton:hover{
         cursor: pointer;
-        color: none;
+        background: #ff8d8df3;
     }
     
     .modalbutton{

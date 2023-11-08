@@ -62,6 +62,7 @@ function Equipamento() {
                 <h2 className="dps">Pastilha Termoelétrica Peltier</h2>
                 <img src={peltier} alt="" className="imgmodals"/>
                 <p>A pastilha Peltier é um cooler termoelétrico utilizado em purificadores de água, bebedouros e mini refrigeradores de diversas marcas. Também pode ser empregado em projetos alternativos de refrigeração de computadores. Sua alta performance garante, em poucos minutos, o aquecimento ou resfriamento de objetos.</p>
+                <br />
                 <a href="https://www.eletrogate.com/pastilha-termoeletrica-peltier-tec1-12706" className="amodals">compre aqui</a>
                 </div>
                 <br />
@@ -71,6 +72,7 @@ function Equipamento() {
                 <h2 className="dps">Módulos ralé</h2>
                 <img src={rele} alt="" className="imgmodals"/>
                 <p>O módulo relé 1 canal funciona com tensão de 5 V, e pode acionar cargas de até 250 VAC ou 30 VDC, suportando uma corrente máxima de 10 A. Possui led indicador de energia, 2 pinos de energia e 1 de controle, além do borne de saída com parafusos, facilitando a conexão dos equipamentos.</p>
+                <br />
                 <a href="https://www.eletrogate.com/modulo-rele-2-canais-5v-10a-com-borne-kr" className="amodals">compre aqui</a>
                 </div>
                 <br />
@@ -80,6 +82,7 @@ function Equipamento() {
                 <h2 className="dps">Adaptador P4/KRE</h2>
                 <img src={p4kre} alt="" className="imgmodals"/>
                 <p>Este conector é usado para ligar a alimentação das câmeras de segurança CFTV. Produto com excelente qualidade profissional e de fácil instalação: Não precisa soldar, pois ele tem parafusos que facilitam a fixação do cabo bastando ter uma chave Philips para poder prendê-los.</p>
+                <br />
                 <a href="https://www.eletrogate.com/conector-adaptador-plug-p4-femea-com-borne" className="amodals">compre aqui</a>
                 </div>
                 <br />
@@ -90,6 +93,7 @@ function Equipamento() {
                 <h2 className="dps">Fonte bivolt</h2>
                 <img src={fonte_bivolt} alt="" className="imgmodals"/>
                 <p>O sistema bivolt é uma característica que dá aos equipamentos eletrônicos a possibilidade de ligá-los tanto em uma rede de 110V quanto em uma de 220V, sem o risco de comprometer a integridade dos aparelhos.</p>
+                <br />
                 <a href="https://produto.mercadolivre.com.br/MLB-2831517951-fonte-12v-1a-bivolt-pcftv-fita-barra-de-led-_JM#is_advertising=true&position=2&search_layout=stack&type=pad&tracking_id=05f01d85-065d-472c-bbb0-0bfdc220ca83&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=NzlkNmM3NDYtNTI1OC00OTU0LTkyMzItNDk0NzU4YjUwMzQ1" className="amodals">compre aqui</a>
                 </div>
                 <br />
@@ -99,6 +103,7 @@ function Equipamento() {
                 <h2 className="dps">Chave Gangorra com 2 terminais</h2>
                 <img src={interruptor} alt="" className="imgmodals"/>
                 <p>O interruptor é um dispositivo simples criado pelo médico Golding Bird, aproximadamente na década de 1840, utilizado na abertura de circuitos elétricos em redes, tomadas e entradas de aparelhos eletrônicos, basicamente na maioria das situações que envolvem o ligamento ou desligamento de energia elétrica.</p>
+                <br />
                 <a href="https://www.eletrogate.com/chave-gangorra-com-2-terminais" className="amodals">compre aqui</a>
                 </div>
                 <br />
