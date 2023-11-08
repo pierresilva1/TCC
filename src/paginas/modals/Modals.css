@@ -13,10 +13,9 @@
 .bacgroud_mobal{
     position: fixed;
     top: 50%;
-    width: 60rem;
-    height: 39rem;
-    margin-left: 60rem;
-    transform: translate(-98%, -50%);
+    width: 20rem;
+    margin-left: 14rem;
+    transform: translate(-50%, -50%);
     background-color: #ffff;
     border-radius: 1rem;
     color: black;
@@ -26,7 +25,7 @@
 
 .conteudo{
     margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 .amodals{
@@ -38,20 +37,17 @@
 }
 
 .imgmodals{
-    width: 14rem;
+    width: 13rem;
 }
 
 .modalsls p{
     margin-right: 2rem;
-    margin-top: 0.5rem;
-}
-
-.modalsls h2{
-    margin-left: 9rem;
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
 }
 
 .modalsls img{
-    margin-left: 13rem;
+    margin-left: 1rem;
 }
 
 
@@ -64,6 +60,8 @@
     border: none;
     background: none;
 }
+
+
 
 }
 
@@ -83,7 +81,6 @@
         position: fixed;
         top: 50%;
         width: 60rem;
-        height: 39rem;
         margin-left: 60rem;
         transform: translate(-50%, -50%);
         background-color: #ffff;
@@ -115,12 +112,11 @@
         margin-top: 0.5rem;
     }
     
-    .modalsls h2{
-        margin-left: 9rem;
-    }
-    
+
     .modalsls img{
-        margin-left: 13rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
     }
     
     
