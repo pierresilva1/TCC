@@ -25,7 +25,7 @@ function Home() {
             <section className="Navegacao">
                 <h2>TermoBlend</h2>
                 
-                <p>o TermoBlend é uma caixa com porta copo que esquentara ou gelara a sua bebida.</p>
+                <p>O TermoBlend é uma caixa com porta copo que vai esquentar ou gelar a sua bebida, de acordo com a sua escolha.</p>
                 <img src={pretatext} alt="imagem do projeto" />
             </section>
             <section className="nos">
@@ -33,7 +33,7 @@ function Home() {
                 <div className="redes">
                 <div className="pierre">
                 <img src={pierre} alt="" />
-                <p>Pierre Silva</p>
+                <p>Pierre Silva </p>
                 <a href="https://www.instagram.com/pierre___silva/" className="insta">@pierre___silva</a>
                 <p>18 anos</p>
                 <p>UNASP SP</p>
@@ -47,7 +47,7 @@ function Home() {
             </div>
             <div className="dg">
             <img src={dg} alt="" />
-                <p>Caique Dias </p>
+                <p>Caique Dias</p>
                 <a href="https://www.instagram.com/caiquedg_102/" className="insta">@caiquedg_102</a>
                 <p>18 anos</p>
                 <p>UNASP SP</p>

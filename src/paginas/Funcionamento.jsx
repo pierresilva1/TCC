@@ -18,7 +18,7 @@ function Funcionamento() {
         <section className="fc">
             <h1 className="h1fc">Funcionamento</h1>
             <div className="fcpimg">
-            <p className="pfc">O nosso projeto será uma “caixa” aonde vai ter uma superfície com uma chapa de metal que vão esquentar ou esfriar uma bebida em recipientes, tendo um interruptor para esquentar e outro para esfriar, enquanto o recipiente estiver em cima dessa chapa de metal o processo de esquentar ou gelar a bebida começara assim que um dos interruptores forem ativados se os dois forem ativados ao mesmo tempo nada acontecera.</p>
+            <p className="pfc">Nosso projeto consistirá em uma 'caixa' que terá uma superfície com uma chapa de metal que poderá aquecer ou resfriar uma bebida em recipientes. Haverá um interruptor para aquecer e outro para resfriar. Quando o recipiente estiver sobre essa chapa de metal, o processo de aquecimento ou resfriamento da bebida começará assim que um dos interruptores for ativado. Se ambos forem ativados ao mesmo tempo, nada acontecerá.</p>
             <img src={pretatext} alt="imagem do projeto" />
             </div>
         </section>
