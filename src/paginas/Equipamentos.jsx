@@ -37,7 +37,7 @@ function Equipamento() {
           <button className="mdls" onClick={() => setPeltier_ModalOpen(true)}><img src={peltier} alt="" /></button>
             </div>
             <div className="eq">
-                <h2 className="dps">Módulos ralé</h2>
+                <h2 className="dps">Módulos relé</h2>
                 <button className="mdls" onClick={() => setRele_ModalOpen(true)}><img src={rele} alt="" /></button>
             </div>
         </section>
@@ -69,7 +69,7 @@ function Equipamento() {
             </Peltier_Modal>
             <Rele_Modal isOpen={openRele_Modal} setRele_ModalOpen={() => setRele_ModalOpen(!openRele_Modal)}>
                 <div className="modalsls">
-                <h2 className="dps">Módulos ralé</h2>
+                <h2 className="dps">Módulos relé</h2>
                 <img src={rele} alt="" className="imgmodals"/>
                 <p>O módulo relé 1 canal funciona com tensão de 5 V, e pode acionar cargas de até 250 VAC ou 30 VDC, suportando uma corrente máxima de 10 A. Possui led indicador de energia, 2 pinos de energia e 1 de controle, além do borne de saída com parafusos, facilitando a conexão dos equipamentos.</p>
                 <br />
