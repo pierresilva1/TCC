@@ -1,11 +1,11 @@
 @media(max-width: 900px) {
     header {
-        background: #4A2FB5;
+        background: #2e2c29;
         height: 5rem;
     }
     
     .objetivo {
-        background: #D5CBFF;
+        background: #fff;
     }
     
     .lg{
@@ -47,14 +47,13 @@
 
 @media(min-width: 900px) {
     header {
-        background: #4A2FB5;
+        background: #2e2c29;
         height: 8rem;
     }
     
     .objetivo {
-        background: #D5CBFF;
-        height: 52.5rem;
-    }
+        background: #ffff;
+        }
     
     .pob {
         

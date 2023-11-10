@@ -1,7 +1,7 @@
 @media(max-width: 900px) {
 
 .equipamentos {
-    background: #D5CBFF;
+    background: #ffff;
 }
 
 
@@ -18,7 +18,7 @@
 
 .eq{
     border-radius: 1.875rem;
-    background: #F0F0F0;
+    background: #2e2c29;
     width: 16rem;
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +36,7 @@
 }
 
 .dps{
-    color: #331A98;
+    color: #FFF;
     font-family: Inter;
     font-size: 0.6rem;
     font-style: normal;
@@ -48,7 +48,6 @@
 .eq img{
     width: 11rem;
     margin-top: 2rem;
-    margin-left: 2rem;
 }
 
 button{
@@ -64,14 +63,13 @@ button:hover{
 
 @media(min-width: 900px) {
     .equipamentos {
-        background: #D5CBFF;
-        height: 116rem;
+        background: #ffff;
         
     }
     
     .eq{
         border-radius: 1.875rem;
-        background: #F0F0F0;
+        background: #2e2c29;
         width: 28rem;
         height: 25rem;
         margin-left: auto;
@@ -109,7 +107,7 @@ button:hover{
     }
     
     .dps{
-        color: #331A98;
+        color: #FFF;
         font-family: Inter;
         font-size: 1rem;
         font-style: normal;
@@ -119,7 +117,7 @@ button:hover{
     
     .eq img{
         width: 17rem;
-        margin-left: 6rem;
+        margin-top: 1.2rem;
     }
      
     button{
