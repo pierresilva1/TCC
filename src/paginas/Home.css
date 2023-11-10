@@ -6,7 +6,7 @@
 p{
     margin-top: 1rem;
     font-family: Inter;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -17,7 +17,7 @@ h1{
     color: #6D4CF3;
     text-align: center;
     font-family: Inter;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -27,7 +27,7 @@ h2{
     padding: 1rem;
     color: #331A98;
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -38,7 +38,7 @@ h3{
     color: #5930FF;
     text-align: center;
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -68,8 +68,8 @@ h3{
 
 .Navegacao img{
     margin-top: 2rem;
-        height: 18rem;
-        width: 16rem;
+        height: 12rem;
+        width: 12rem;
 }
 
 .btss {
@@ -163,7 +163,7 @@ button:hover a {
 }
 
 .pierre img {
-    width: 11rem;
+    width: 10rem;
     height: 9rem;
     margin-left: auto;
     margin-right: auto;
@@ -177,7 +177,7 @@ button:hover a {
 }
 
 .dutra img {
-    width: 11rem;
+    width: 10rem;
     height: 9rem;
     margin-left: auto;
     margin-right: auto;
@@ -194,7 +194,7 @@ button:hover a {
     color: black;
     margin-top: 0.8rem;
     font-family: Inter;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -209,7 +209,7 @@ button:hover a {
     p{
         margin-top: 0.8rem;
         font-family: Inter;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -220,7 +220,7 @@ button:hover a {
         color: #6D4CF3;
         text-align: center;
         font-family: Inter;
-        font-size: 3rem;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
@@ -230,7 +230,7 @@ button:hover a {
         padding: 2rem;
         color: #331A98;
         font-family: Inter;
-        font-size: 2rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -241,7 +241,7 @@ button:hover a {
         color: #5930FF;
         text-align: center;
         font-family: Inter;
-        font-size: 2rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -271,8 +271,8 @@ button:hover a {
     
     .Navegacao img{
         margin-top: 2rem;
-        height: 22rem;
-        width: 44rem;
+        height: 12rem;
+        width: 22rem;
     }
     
     .btss {
@@ -361,19 +361,19 @@ button:hover a {
     
     .pierre img {
         width: 12rem;
-        height: 9.2rem;
+        height: 9rem;
         margin-left: 4rem;
     }
     
     .dg img {
         width: 9rem;
-        height: 9.2rem;
+        height: 9rem;
         margin-left: 5rem;
     }
     
     .dutra img {
-        width: 12rem;
-        height: 9.2rem;
+        width: 10rem;
+        height: 9rem;
         margin-left: 4rem;
     }
     
@@ -388,7 +388,7 @@ button:hover a {
         color: black;
         margin-top: 0.8rem;
         font-family: Inter;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;

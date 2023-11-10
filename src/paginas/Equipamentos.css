@@ -28,7 +28,7 @@
 .dp {
     color: #6D4CF3;
     font-family: Inter;        
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -38,7 +38,7 @@
 .dps{
     color: #331A98;
     font-family: Inter;
-    font-size: 1.4rem;
+    font-size: 0.6rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -101,7 +101,7 @@ button:hover{
     .dp {
         color: #6D4CF3;
         font-family: Inter;        
-        font-size: 3rem;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -111,7 +111,7 @@ button:hover{
     .dps{
         color: #331A98;
         font-family: Inter;
-        font-size: 2rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;

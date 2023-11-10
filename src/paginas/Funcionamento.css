@@ -7,7 +7,7 @@
         
         color: #14093E;
         font-family: Inter;
-        font-size: 1.3rem;
+        font-size: 0.5rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -17,7 +17,7 @@
     .h1fc {
         color: #6D4CF3;
         font-family: Inter;
-        font-size: 2.4rem;
+        font-size: 1.4rem;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
@@ -37,8 +37,8 @@
     
     
     .fcpimg img{
-        width: 17rem;
-        height: 16rem;
+        width: 7rem;
+        height: 6rem;
         display: flex;
         margin-left: auto;
         margin-right: auto;
@@ -55,7 +55,7 @@
         
         color: #14093E;
         font-family: Inter;
-        font-size: 2rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -65,7 +65,7 @@
     .h1fc {
         color: #6D4CF3;
         font-family: Inter;
-        font-size: 4rem;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
@@ -88,8 +88,8 @@
     
     .fcpimg img{
         margin-top: 6rem;
-        width: 35rem;
-        height: 30rem;
+        width: 15rem;
+        height: 13rem;
         margin-right: 2rem;
     }
 }

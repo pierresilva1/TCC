@@ -60,7 +60,7 @@ a{
 }
 
 .logo{
-    width: 18rem;
+    width: 16rem;
 }
 
 .logo:hover{
@@ -91,7 +91,7 @@ header{
     }
     
     .as{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         margin-left: 9rem;
     }
     
@@ -101,7 +101,7 @@ header{
     }
     
     .logo{
-        width: 6rem;
+        width: 5rem;
         margin-left: 2rem;
     }
     
