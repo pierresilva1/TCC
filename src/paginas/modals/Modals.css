@@ -32,8 +32,6 @@
     color: black;
     display: flex;
     margin-top: 2rem;
-    font-size: 1.3rem;
-    font-weight: 700;
 }
 
 .imgmodals{
@@ -97,15 +95,14 @@
     }
     
     .amodals{
-        color: black;
         margin-top: 2rem;
-        font-size: 1.3rem;
-        font-weight: 700;
     }
 
-    .amodals:hover{
-        color: #6a93e0;
+    .amodals img{
+        width: 14rem;
     }
+
+    
     
     .imgmodals{
         width: 14rem;

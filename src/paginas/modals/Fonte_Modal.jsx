@@ -1,6 +1,6 @@
 
 import './Modals.css'
-import { X } from '@  -icons/react'
+import { X } from '@phosphor-icons/react'
 
 
 function Fonte_Modal({isOpen, setFonte_ModalOpen, children}) {
