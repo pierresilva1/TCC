@@ -1,11 +1,10 @@
 
 
+    nav{
+        margin-left: 8rem;
+        margin-right: 13rem;
+    }
 
-
-
-@media(min-width: 900px) {
-
-    
     a{
         font-family: Inter;
         font-style: normal;
@@ -18,18 +17,13 @@
         width: 1rem;
     }
     
-    nav{
-        margin-left: 8rem;
-        margin-right: 12rem;    
-    }
-    
     .as:hover{
         color: #c0c0c0;
         text-decoration:underline;
     }
     
     .logo{
-        width: 16rem;
+        width: 5rem;
     }
     
     .logo:hover{
@@ -40,7 +34,7 @@
         display: flex;
     }
     
-    }
+    
     
     @media(min-width: 900px) {
         .botao-menu {
@@ -82,10 +76,6 @@
         .menu.close {
             translate: -100%;
         }
-        
-        .menu-desktop {
-            display: none;
-        }
 
         .menu-mobile {
             display: none;
@@ -112,12 +102,11 @@
             text-decoration:underline;
         }
         
-        .logo{
-            width: 5rem;
-            margin-left: 2rem;
+        .logos{
+            width: 0.1rem;
         }
         
-        .logo:hover{
+        .logos:hover{
             cursor: pointer;
         }
     

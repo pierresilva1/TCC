@@ -27,7 +27,7 @@ function Header() {
         
             
             <div className="botao-menu">
-            <Link to={'/'}><img src={logos} alt="logo" className="logo" /></Link>
+            <Link to={'/'}><img src={logos} alt="logo" className="logos " /></Link>
                 <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} /> : <List size={32} /> }</button>
             </div>
             
@@ -45,7 +45,7 @@ function Header() {
         </div>
 
         <div className="menu-desktop">
-        
+        <Link to={'/'}><img src={logo} alt="logo" className="logo" /></Link>
 
             <nav>
                 <Link to={'/'} className="as">Home</Link>
