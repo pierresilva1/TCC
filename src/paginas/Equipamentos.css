@@ -2,6 +2,7 @@
 
 .equipamentos {
     background: #ffff;
+    text-align: center;
 }
 
 
@@ -37,6 +38,16 @@
 
 .dps{
     color: #FFF;
+    font-family: Inter;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.h2modal{
+    color: #2e2c29;
     font-family: Inter;
     font-size: 0.6rem;
     font-style: normal;
@@ -108,6 +119,15 @@ button:hover{
     
     .dps{
         color: #FFF;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .h2modal{
+        color: #2e2c29;
         font-family: Inter;
         font-size: 1rem;
         font-style: normal;

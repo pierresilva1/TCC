@@ -6,6 +6,7 @@
     
     .objetivo {
         background: #fff;
+        text-align: center;
     }
     
     .lg{
@@ -53,13 +54,14 @@
     
     .objetivo {
         background: #ffff;
+        text-align: center;
         }
     
     .pob {
         
         color: #14093E;
         font-family: Inter;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;

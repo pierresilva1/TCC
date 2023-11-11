@@ -45,11 +45,14 @@ function Header() {
         </div>
 
         <div className="menu-desktop">
-        <Link to={'/'}><img src={logo} alt="logo" className="logo" /></Link>
+        
 
             <nav>
                 <Link to={'/'} className="as">Home</Link>
                 <Link to={'/Objetivo'} className="as">Objetivo</Link>
+                </nav>
+                <Link to={'/'}><img src={logo} alt="logo" className="logo" /></Link>
+                <nav>
                 <Link to={'/Funcionamento'} className="as">Funcionamento</Link>
                 <Link to={'/Equipamento'} className="as">Equipamento</Link>
                 

@@ -59,7 +59,7 @@ function Equipamento() {
         </section>
         <Peltier_Modal isOpen={openPeltier_Modal} setPeltier_ModalOpen={() => setPeltier_ModalOpen(!openPeltier_Modal)}>
                 <div className="modalsls">
-                <h2 className="dps">Pastilha Termoelétrica Peltier</h2>
+                <h2 className="h2modal">Pastilha Termoelétrica Peltier</h2>
                 <img src={peltier} alt="" className="imgmodals"/>
                 <p>A pastilha Peltier é um cooler termoelétrico utilizado em purificadores de água, bebedouros e mini refrigeradores de diversas marcas. Também pode ser empregado em projetos alternativos de refrigeração de computadores. Sua alta performance garante, em poucos minutos, o aquecimento ou resfriamento de objetos.</p>
                 <br />
@@ -69,7 +69,7 @@ function Equipamento() {
             </Peltier_Modal>
             <Rele_Modal isOpen={openRele_Modal} setRele_ModalOpen={() => setRele_ModalOpen(!openRele_Modal)}>
                 <div className="modalsls">
-                <h2 className="dps">Módulos relé</h2>
+                <h2 className="h2modal">Módulos relé</h2>
                 <img src={rele} alt="" className="imgmodals"/>
                 <p>O módulo relé 1 canal funciona com tensão de 5 V, e pode acionar cargas de até 250 VAC ou 30 VDC, suportando uma corrente máxima de 10 A. Possui led indicador de energia, 2 pinos de energia e 1 de controle, além do borne de saída com parafusos, facilitando a conexão dos equipamentos.</p>
                 <br />
@@ -79,7 +79,7 @@ function Equipamento() {
             </Rele_Modal>
             <P4kre_Modal isOpen={openP4kre_Modal} setP4kre_ModalOpen={() => setP4kre_ModalOpen(!openP4kre_Modal)}>
                 <div className="modalsls">
-                <h2 className="dps">Adaptador P4/KRE</h2>
+                <h2 className="h2modal">Adaptador P4/KRE</h2>
                 <img src={p4kre} alt="" className="imgmodals"/>
                 <p>Este conector é usado para ligar a alimentação das câmeras de segurança CFTV. Produto com excelente qualidade profissional e de fácil instalação: Não precisa soldar, pois ele tem parafusos que facilitam a fixação do cabo bastando ter uma chave Philips para poder prendê-los.</p>
                 <br />
@@ -90,7 +90,7 @@ function Equipamento() {
 
             <Fonte_Modal isOpen={openFonte_Modal} setFonte_ModalOpen={() => setFonte_ModalOpen(!openFonte_Modal)}>
                 <div className="modalsls">
-                <h2 className="dps">Fonte bivolt</h2>
+                <h2 className="h2modal">Fonte bivolt</h2>
                 <img src={fonte_bivolt} alt="" className="imgmodals"/>
                 <p>O sistema bivolt é uma característica que dá aos equipamentos eletrônicos a possibilidade de ligá-los tanto em uma rede de 110V quanto em uma de 220V, sem o risco de comprometer a integridade dos aparelhos.</p>
                 <br />
@@ -100,7 +100,7 @@ function Equipamento() {
             </Fonte_Modal>
             <Interruptor_Modal isOpen={openInterruptor_Modal} setInterruptor_ModalOpen={() => setInterruptor_ModalOpen(!openInterruptor_Modal)}>
                 <div className="modalsls">
-                <h2 className="dps">Chave Gangorra</h2>
+                <h2 className="h2modal">Chave Gangorra</h2>
                 <img src={interruptor} alt="" className="imgmodals"/>
                 <p>O interruptor é um dispositivo simples criado pelo médico Golding Bird, aproximadamente na década de 1840, utilizado na abertura de circuitos elétricos em redes, tomadas e entradas de aparelhos eletrônicos, basicamente na maioria das situações que envolvem o ligamento ou desligamento de energia elétrica.</p>
                 <br />

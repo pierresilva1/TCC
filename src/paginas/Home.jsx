@@ -25,7 +25,7 @@ function Home() {
             <section className="Navegacao">
                 <h2>TermoBlend</h2>
                 
-                <p>O TermoBlend é uma caixa com porta copo que vai esquentar ou gelar a sua bebida, de acordo com a sua escolha.</p>
+                <p className="ph">O TermoBlend é uma caixa com porta copo que vai esquentar ou gelar a sua bebida, de acordo com a sua escolha.</p>
                 <img src={pretatext} alt="imagem do projeto" />
             </section>
             <section className="nos">
