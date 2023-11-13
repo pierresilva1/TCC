@@ -1,120 +1,123 @@
+.botao-menu {
+    height: 4rem;
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.botao-menu button{
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+    background: none;
+    border: none;
+}
+
+.botao-menu a{
+    margin-top: 1rem;
+}
+
+.menu {
+    width: 12rem;
+    height: 11rem;
+    border-end-end-radius: 8rem;
+    padding-right: 2rem;
+    transition: translate .2s;
+    background: #2e2c29;
+    position: absolute;
+}
+
+.menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}   
+
+.menu.close {
+    translate: -100%;
+}
+
+a{
+    font-family: Inter;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.as{
+    font-size: 1rem;
+}
+
+.as:hover{
+    color: #c0c0c0;
+    text-decoration:underline;
+}
+
+.logo-desktop {
+    display: none;
+}
+
+.logo-mobile{
+    width: 5rem;
+}
+
+.logo-mobile:hover{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+}
 
 
-    nav{
-        margin-left: 8rem;
-        margin-right: 13rem;
+@media(min-width: 900px) {
+    header {
+        background: #2e2c29;
+        height: 5rem;
+    }
+    
+    .menu-desktop nav {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        width: 100%;
+        place-items: center;
+        align-items: center;
+    }
+
+    .menu-desktop {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .menu-mobile {
+        display: none;
     }
 
     a{
         font-family: Inter;
-        font-style: normal;
         color: #ffff;
         text-decoration: none;
     }
     
     .as{
-        font-size: 1rem;
-        width: 1rem;
+        font-size: 1.8rem;
+        width: fit-content;
     }
     
     .as:hover{
-        color: #c0c0c0;
         text-decoration:underline;
     }
-    
-    .logo{
+
+    .logo-desktop{
+        display: block;
         width: 5rem;
+        margin-inline: auto;
     }
     
-    .logo:hover{
+    .logo-desktop:hover{
         cursor: pointer;
     }
-    
-    header{
-        display: flex;
-    }
-    
-    
-    
-    @media(min-width: 900px) {
-        .botao-menu {
-            height: 4rem;
-            padding-inline: 2rem;
-            display: flex;
-            align-items: center;
-        }
-        
-        .botao-menu button{
-            margin-left: 1.4rem;
-            margin-top: 1rem;
-            background: none;
-            border: none;
-        }
-        
-        .botao-menu a{
-            margin-top: 1rem;
-        }
-        
-        .menu {
-            
-            width: 12rem;
-            height: 11rem;
-            border-end-end-radius: 8rem;
-            padding-right: 2rem;
-            transition: translate .2s;
-            background: #2e2c29;
-            position: absolute;
-        }
-        
-        .menu nav {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            padding: 1rem;
-        }   
-        
-        .menu.close {
-            translate: -100%;
-        }
 
-        .menu-mobile {
-            display: none;
-        }
-    
-        .menu-desktop {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        a{
-            font-family: Inter;
-            font-style: normal;
-            color: #ffff;
-            text-decoration: none;
-        }
-        
-        .as{
-            font-size: 1.8rem;
-            margin-left: 9rem;
-        }
-        
-        .as:hover{
-            text-decoration:underline;
-        }
-        
-        .logos{
-            width: 0.1rem;
-        }
-        
-        .logos:hover{
-            cursor: pointer;
-        }
-    
-        header{
-            display: flex;
-        }
-        
-        
-    }
-    
-    
+}
+

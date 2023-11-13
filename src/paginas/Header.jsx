@@ -3,8 +3,8 @@ import "./Index.css"
 import "./Objetivo.css"
 import { Link } from 'react-router-dom'
 import { List, X } from '@phosphor-icons/react'
-import logo from '../img/logo2.png'
-import logos from '../img/logos2.png'
+import logoDesktop from '../img/logo-desktop.png'
+import logoMobile from '../img/logo-mobile.png'
 
 
 
@@ -24,15 +24,13 @@ function Header() {
     <>
     <header>
         <div className="menu-mobile">
-        
-            
             <div className="botao-menu">
-            <Link to={'/'}><img src={logos} alt="logo" className="logos " /></Link>
+                <Link to={'/'}>
+                    <img src={logoMobile} alt="logo" className="logo-mobile" />
+                </Link>
                 <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} /> : <List size={32} /> }</button>
             </div>
             
-            
-
             <div className={`menu ${abrirFechar == true ? "" : "close"}`}>
                 <nav>
                 <Link to={'/'} className="as">Home</Link>
@@ -45,18 +43,13 @@ function Header() {
         </div>
 
         <div className="menu-desktop">
-        <Link to={'/'}><img src={logo} alt="logo" className="logo" /></Link>
-
             <nav>
                 <Link to={'/'} className="as">Home</Link>
                 <Link to={'/Objetivo'} className="as">Objetivo</Link>
-                </nav>
-                <Link to={'/'}><img src={logo} alt="logo" className="logo" /></Link>
-                <nav>
+                <Link to={'/'}><img src={logoDesktop} alt="logo" className="logo-desktop" /></Link>
                 <Link to={'/Funcionamento'} className="as">Funcionamento</Link>
                 <Link to={'/Equipamento'} className="as">Equipamento</Link>
-                
-                </nav>
+            </nav>
         </div>
     </header>
     </>

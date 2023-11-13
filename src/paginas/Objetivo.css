@@ -1,9 +1,4 @@
 @media(max-width: 900px) {
-    header {
-        background: #2e2c29;
-        height: 5rem;
-    }
-    
     .objetivo {
         background: #fff;
         text-align: center;
