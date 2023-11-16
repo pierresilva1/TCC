@@ -28,7 +28,7 @@ function Header() {
                 <Link to={'/'}>
                     <img src={logoMobile} alt="logo" className="logo-mobile" />
                 </Link>
-                <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} /> : <List size={32} /> }</button>
+                <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} color="#8284fa" /> : <List size={32} color="#8284fa" /> }</button>
             </div>
             
             <div className={`menu ${abrirFechar == true ? "" : "close"}`}>

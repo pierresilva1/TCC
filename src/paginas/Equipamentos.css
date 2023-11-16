@@ -1,13 +1,13 @@
 @media(max-width: 900px) {
 
 .equipamentos {
-    background: #ffff;
+    background: #0d0d0d;
     text-align: center;
 }
 
 
 .eqss {
-    background: #FFF;
+    background: #0d0d0d;
     border-radius: 1.875rem;
     width: 22rem;
     height: 110rem;
@@ -27,7 +27,7 @@
 }
 
 .dp {
-    color: #6D4CF3;
+    color: #8284FA;
     font-family: Inter;        
     font-size: 1.5rem;
     font-style: normal;
@@ -37,7 +37,7 @@
 }
 
 .dps{
-    color: #FFF;
+    color: #8284FA;
     font-family: Inter;
     font-size: 0.6rem;
     font-style: normal;
@@ -47,7 +47,7 @@
 }
 
 .h2modal{
-    color: #2e2c29;
+    color: #8284FA;
     font-family: Inter;
     font-size: 0.6rem;
     font-style: normal;
@@ -74,7 +74,7 @@ button:hover{
 
 @media(min-width: 900px) {
     .equipamentos {
-        background: #ffff;
+        background: #0d0d0d;
         
     }
     
@@ -88,7 +88,7 @@ button:hover{
     }
     
     .eqs {
-        background: #FFF;
+        background: #0d0d0d;
         border-radius: 1.875rem;
         width: 86rem;
         margin-left: auto;
@@ -98,7 +98,7 @@ button:hover{
     }
 
     .eqss {
-        background: #FFF;
+        background: #0d0d0d;
         border-radius: 1.875rem;
         width: 86rem;
         height: 108rem;
@@ -108,7 +108,7 @@ button:hover{
     }
     
     .dp {
-        color: #6D4CF3;
+        color: #8284FA;
         font-family: Inter;        
         font-size: 2rem;
         font-style: normal;
@@ -118,7 +118,7 @@ button:hover{
     }
     
     .dps{
-        color: #FFF;
+        color: #8284FA;
         font-family: Inter;
         font-size: 1rem;
         font-style: normal;
@@ -127,7 +127,7 @@ button:hover{
     }
 
     .h2modal{
-        color: #2e2c29;
+        color: #8284FA;
         font-family: Inter;
         font-size: 1rem;
         font-style: normal;

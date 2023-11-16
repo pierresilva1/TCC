@@ -10,7 +10,7 @@ if (isOpen){
    <div className="bacgroud_fundo">
     <div className="bacgroud_mobal">
       <div className="conteudo">
-        <button onClick={setInterruptor_ModalOpen} className="modalbutton" ><X size={50} /></button>
+        <button onClick={setInterruptor_ModalOpen} className="modalbutton" ><X size={50} color="#8284fa" /></button>
         
         <div className='children'>{children}</div>
         </div>

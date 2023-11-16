@@ -14,11 +14,11 @@
     position: fixed;
     top: 50%;
     width: 20rem;
-    margin-left: 12rem;
+    margin-left: 2rem;
     transform: translate(-50%, -50%);
-    background-color: #ffff;
+    background-color: #2e2c29;
     border-radius: 1rem;
-    color: black;
+    color: #8284FA;
 }
 
 
@@ -29,9 +29,29 @@
 }
 
 .amodals{
-    color: black;
     display: flex;
     margin-top: 2rem;
+}
+
+.amodals button{
+    color: #f5f5f5;
+    background: #0d0d0d;
+    width: 12rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+}
+
+.carrinho{
+    color: #f5f5f5;
+}
+
+.amodals button:hover .carrinho{
+    color: #000000;
+}
+
+.amodals button:hover{
+    color: #000000;
+    background: #C0C0C0;
 }
 
 .imgmodals{
@@ -80,11 +100,11 @@
         position: fixed;
         top: 50%;
         width: 60rem;
-        margin-left: 60rem;
+        margin-left: 40rem;
         transform: translate(-50%, -50%);
-        background-color: #ffff;
+        background-color: #2e2c29;
         border-radius: 1rem;
-        color: black;
+        color: #8284FA;
     }
     
     
@@ -96,6 +116,27 @@
     
     .amodals{
         margin-top: 2rem;
+    }
+
+    .amodals button{
+        color: #f5f5f5;
+        background: #0d0d0d;
+        width: 12rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .carrinho{
+        color: #f5f5f5;
+    }
+
+    .amodals button:hover .carrinho{
+        color: #000000;
+    }
+
+    .amodals button:hover{
+        color: #000000;
+        background: #C0C0C0;
     }
 
     .amodals img{

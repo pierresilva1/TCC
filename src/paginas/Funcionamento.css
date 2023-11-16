@@ -1,12 +1,12 @@
 @media(max-width: 900px) {
     .funcionamento {
-        background: #ffff;
+        background: #0d0d0d;
         text-align: center;
     }
     
     .pfc {
         
-        color: #14093E;
+        color: #8284FA;
         font-family: Inter;
         font-size: 0.7rem;
         font-style: normal;
@@ -16,7 +16,7 @@
     }
     
     .h1fc {
-        color: #6D4CF3;
+        color: #8284FA;
         font-family: Inter;
         font-size: 1.4rem;
         font-style: normal;
@@ -33,13 +33,13 @@
 
 @media(min-width: 900px) {
     .funcionamento {
-        background: #fff;
+        background: #0d0d0d;
         text-align: center;
     }
     
     .pfc {
         
-        color: #14093E;
+        color: #8284FA;
         font-family: Inter;
         font-size: 1rem;
         font-style: normal;
@@ -49,7 +49,7 @@
     }
     
     .h1fc {
-        color: #6D4CF3;
+        color: #8284FA;
         font-family: Inter;
         font-size: 2rem;
         font-style: normal;

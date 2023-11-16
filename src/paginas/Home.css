@@ -1,6 +1,6 @@
 @media(max-width: 900px) {
     main {
-    background: #ffff;
+    background: #0d0d0d;
     text-align: center;
 }
 
@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    color: #fff;
+    color: #8284FA;
 }
 
 p{
@@ -21,11 +21,12 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    color: #8284FA;
 }
 
 h1{
     padding: 0.5rem;
-    color: #6D4CF3;
+    color: #8284FA;
     text-align: center;
     font-family: Inter;
     font-size: 1rem;
@@ -36,7 +37,7 @@ h1{
 
 h2{
     padding: 1rem;
-    color: #fff;
+    color: #8284FA;
     font-family: Inter;
     font-size: 0.8rem;
     font-style: normal;
@@ -46,7 +47,7 @@ h2{
 
 h3{
     padding-bottom: 1rem;
-    color: #5930FF;
+    color: #8284FA;
     text-align: center;
     font-family: Inter;
     font-size: 0.8rem;
@@ -58,7 +59,7 @@ h3{
 
 .Navegacao {
     border-radius: 1.875rem;
-    background: #2e2c29;
+    background: #0d0d0d;
     width: 20rem;
     height: 29rem;
     margin-left: auto;
@@ -106,7 +107,7 @@ button:hover a {
 
 .nos {
     border-radius: 1.875rem;
-    background: #2e2c29;
+    background: #0d0d0d;
     width: 20rem;
     height: 64rem;
     margin-left: auto;
@@ -114,7 +115,7 @@ button:hover a {
 }
 
 .nos h1 {
-    color: #FFF;
+    color: #8284FA;
 }
 
 .redes {
@@ -127,7 +128,7 @@ button:hover a {
     width: 15rem;
     height: 18rem;
     border-radius: 2.5rem;
-    background: #F0F0F0;
+    background: #2e2c29;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -140,7 +141,7 @@ button:hover a {
     width: 15rem;
     height: 18rem;
     border-radius: 2.5rem;
-    background: #F0F0F0;
+    background: #2e2c29;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -153,7 +154,7 @@ button:hover a {
     width: 15rem;
     height: 18rem;
     border-radius: 2.5rem;
-    background: #F0F0F0;
+    background: #2e2c29;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -191,7 +192,7 @@ button:hover a {
 }
 
 .insta{
-    color: black;
+    color: #8284FA;
     margin-top: 0.8rem;
     font-family: Inter;
     font-size: 0.6rem;
@@ -203,7 +204,7 @@ button:hover a {
 
 @media(min-width: 900px) {
     main {
-        background: #ffff;
+        background: #0d0d0d;
         text-align: center;
     }
     
@@ -214,7 +215,7 @@ button:hover a {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: #8284FA;
     }
 
     p{
@@ -224,11 +225,12 @@ button:hover a {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        color: #8284FA;
     }
     
     h1{
         padding: 1.5rem;
-        color: #6D4CF3;
+        color: #8284FA;
         text-align: center;
         font-family: Inter;
         font-size: 2rem;
@@ -239,7 +241,7 @@ button:hover a {
     
     h2{
         padding: 2rem;
-        color: #fff;
+        color: #8284FA;
         font-family: Inter;
         font-size: 1rem;
         font-style: normal;
@@ -249,7 +251,7 @@ button:hover a {
     
     h3{
         padding-bottom: 2rem;
-        color: #5930FF;
+        color: #8284FA;
         text-align: center;
         font-family: Inter;
         font-size: 1rem;
@@ -262,7 +264,7 @@ button:hover a {
     
     .Navegacao {
         border-radius: 1.875rem;
-        background: #2e2c29;
+        background: #0d0d0d;
         width: 77.8125rem;
         height: 34rem;
         margin-left: auto;
@@ -310,7 +312,7 @@ button:hover a {
     
     .nos {
         border-radius: 1.875rem;
-        background: #2e2c29;
+        background: #0d0d0d;
         width: 77.8125rem;
         height: 31rem;
         margin-left: auto;
@@ -318,7 +320,7 @@ button:hover a {
     }
     
     .nos h1 {
-        color: #FFF;
+        color: #8284FA;
     }
     
     .redes {
@@ -331,7 +333,7 @@ button:hover a {
         width: 37rem;
         height: 21rem;
         border-radius: 2.5rem;
-        background: #F0F0F0;
+        background: #2e2c29;
         padding: 2rem;
         margin-left: 2rem;
         margin-right: 2rem;
@@ -343,7 +345,7 @@ button:hover a {
         width: 37rem;
         height: 21rem;
         border-radius: 2.5rem;
-        background: #F0F0F0;
+        background: #2e2c29;
         padding: 2rem;
         display: flex;
         flex-direction: column;
@@ -354,7 +356,7 @@ button:hover a {
         width: 37rem;
         height: 21rem;
         border-radius: 2.5rem;
-        background: #F0F0F0;
+        background: #2e2c29;
         padding: 2rem;
         display: flex;
         flex-direction: column;
@@ -386,7 +388,7 @@ button:hover a {
     }
     
     .insta{
-        color: black;
+        color: #8284FA;
         margin-top: 0.8rem;
         font-family: Inter;
         font-size: 0.9rem;

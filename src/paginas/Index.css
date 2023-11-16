@@ -66,12 +66,13 @@ a{
 
 header{
     display: flex;
+    background: #262626;
 }
 
 
 @media(min-width: 900px) {
     header {
-        background: #2e2c29;
+        background: #262626;
         height: 5rem;
     }
     
@@ -96,7 +97,7 @@ header{
 
     a{
         font-family: Inter;
-        color: #ffff;
+        color: #8284FA;
         text-decoration: none;
     }
     
@@ -107,6 +108,7 @@ header{
     
     .as:hover{
         text-decoration:underline;
+        color: #5a5cb4;
     }
 
     .logo-desktop{

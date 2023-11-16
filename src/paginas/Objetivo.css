@@ -1,6 +1,6 @@
 @media(max-width: 900px) {
     .objetivo {
-        background: #fff;
+        background: #0d0d0d;
         text-align: center;
     }
     
@@ -9,7 +9,7 @@
     }
     
     .pob {
-        color: #14093E;
+        color: #8284FA;
         font-family: Inter;
         font-size: 0.7rem;
         font-style: normal;
@@ -20,7 +20,7 @@
     }
     
     .h1ob {
-        color: #6D4CF3;
+        color: #8284FA;
         font-family: Inter;
         font-size: 2rem;
         font-style: normal;
@@ -32,7 +32,7 @@
     .ob{
         margin-top: 6rem;
         border-radius: 1.875rem;
-        background: #FFF;
+        background: #0d0d0d;
         width: 22rem;
         height: 44rem;
         margin-left: auto;
@@ -43,18 +43,17 @@
 
 @media(min-width: 900px) {
     header {
-        background: #2e2c29;
         height: 8rem;
     }
     
     .objetivo {
-        background: #ffff;
+        background: #0d0d0d;
         text-align: center;
         }
     
     .pob {
         
-        color: #14093E;
+        color: #8284FA;
         font-family: Inter;
         font-size: 1rem;
         font-style: normal;
@@ -64,7 +63,7 @@
     }
     
     .h1ob {
-        color: #6D4CF3;
+        color: #8284FA;
         font-family: Inter;
         font-size: 2.4rem;
         font-style: normal;
@@ -76,7 +75,7 @@
     .ob{
         margin-top: 2rem;
         border-radius: 1.875rem;
-        background: #FFF;
+        background: #0d0d0d;
         width: 86.1875rem;
         height: 44rem;
         margin-left: auto;
