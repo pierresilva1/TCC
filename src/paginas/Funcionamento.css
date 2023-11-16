@@ -1,7 +1,7 @@
 @media(max-width: 900px) {
     .funcionamento {
         background: #0d0d0d;
-        text-align: center;
+        
     }
     
     .pfc {
@@ -13,6 +13,7 @@
         font-weight: 400;
         line-height: normal;
         padding: 4rem;
+        text-align: center;
     }
     
     .h1fc {
@@ -22,7 +23,7 @@
         font-style: normal;
         font-weight: 800;
         line-height: normal;
-          
+        text-align: center;
     }
     
     
@@ -34,11 +35,10 @@
 @media(min-width: 900px) {
     .funcionamento {
         background: #0d0d0d;
-        text-align: center;
     }
     
     .pfc {
-        
+        text-align: center;
         color: #8284FA;
         font-family: Inter;
         font-size: 1rem;
@@ -55,7 +55,7 @@
         font-style: normal;
         font-weight: 800;
         line-height: normal;
-          
+        text-align: center;
     }
     
     .fcconteudo{

@@ -1,7 +1,6 @@
 @media(max-width: 900px) {
     main {
     background: #0d0d0d;
-    text-align: center;
 }
 
 .ph{
@@ -12,6 +11,7 @@
     font-weight: 700;
     line-height: normal;
     color: #8284FA;
+    text-align: center;
 }
 
 p{
@@ -22,6 +22,7 @@ p{
     font-weight: 700;
     line-height: normal;
     color: #8284FA;
+    text-align: center;
 }
 
 h1{
@@ -33,6 +34,7 @@ h1{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+
 }
 
 h2{
@@ -43,6 +45,7 @@ h2{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
 }
 
 h3{
@@ -85,6 +88,7 @@ h3{
 .Navegacao p{
     margin-left: 1rem;
     margin-right: 1rem;
+    text-align: center;
 }
 
 .bts button{
@@ -112,6 +116,7 @@ button:hover a {
     height: 64rem;
     margin-left: auto;
     margin-right: auto;   
+    text-align: center;
 }
 
 .nos h1 {
@@ -205,7 +210,7 @@ button:hover a {
 @media(min-width: 900px) {
     main {
         background: #0d0d0d;
-        text-align: center;
+        
     }
     
     .ph{
@@ -216,6 +221,7 @@ button:hover a {
         font-weight: 700;
         line-height: normal;
         color: #8284FA;
+        text-align: center;
     }
 
     p{
@@ -226,6 +232,7 @@ button:hover a {
         font-weight: 700;
         line-height: normal;
         color: #8284FA;
+        text-align: center;
     }
     
     h1{
@@ -247,6 +254,7 @@ button:hover a {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        text-align: center;
     }
     
     h3{
@@ -270,6 +278,7 @@ button:hover a {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10rem;
+        text-align: center;
     }
     
     .Navegacao img{
@@ -316,11 +325,13 @@ button:hover a {
         width: 77.8125rem;
         height: 31rem;
         margin-left: auto;
-        margin-right: auto;   
+        margin-right: auto;
+        text-align: center;   
     }
     
     .nos h1 {
         color: #8284FA;
+        text-align: center;
     }
     
     .redes {

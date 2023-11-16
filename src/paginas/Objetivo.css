@@ -1,7 +1,6 @@
 @media(max-width: 900px) {
     .objetivo {
         background: #0d0d0d;
-        text-align: center;
     }
     
     .lg{
@@ -16,6 +15,7 @@
         font-weight: 400;
         line-height: normal;
         margin-top: 2rem;
+        text-align: center;
         padding: 2rem;
     }
     
@@ -26,7 +26,7 @@
         font-style: normal;
         font-weight: 800;
         line-height: normal;
-          
+        text-align: center;
     }
     
     .ob{
@@ -52,7 +52,7 @@
         }
     
     .pob {
-        
+        text-align: center;
         color: #8284FA;
         font-family: Inter;
         font-size: 1rem;
@@ -69,13 +69,12 @@
         font-style: normal;
         font-weight: 800;
         line-height: normal;
-          
+        text-align: center;
     }
     
     .ob{
-        margin-top: 2rem;
         border-radius: 1.875rem;
-        background: #0d0d0d;
+        
         width: 86.1875rem;
         height: 44rem;
         margin-left: auto;

@@ -14,7 +14,6 @@ function Funcionamento() {
      <Header />
 
     <main className="funcionamento">
-        <br />
         <section className="fc">
             <h1 className="h1fc">Funcionamento</h1>
             <div className="fcconteudo">
@@ -25,7 +24,6 @@ function Funcionamento() {
             <img src={pretatext} alt="imagem do projeto" />
             </div>
         </section>
-        <br />
     </main>
     </>
     )

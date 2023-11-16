@@ -4,7 +4,7 @@ import "./Objetivo.css"
 import { Link } from 'react-router-dom'
 import { List, X } from '@phosphor-icons/react'
 import logoDesktop from '../img/logo-desktop.png'
-import logoMobile from '../img/logo-mobile.png'
+
 
 
 
@@ -26,7 +26,7 @@ function Header() {
         <div className="menu-mobile">
             <div className="botao-menu">
                 <Link to={'/'}>
-                    <img src={logoMobile} alt="logo" className="logo-mobile" />
+                    <img src={logoDesktop} alt="logo" className="logo-mobile" />
                 </Link>
                 <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} color="#8284fa" /> : <List size={32} color="#8284fa" /> }</button>
             </div>

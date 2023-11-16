@@ -6,7 +6,7 @@
 }
 
 .botao-menu button{
-    margin-left: 1.4rem;
+    margin-left: 14rem;
     margin-top: 1rem;
     background: none;
     border: none;
@@ -39,7 +39,7 @@
 
 a{
     font-family: Inter;
-    color: #ffff;
+    color: #8284FA;
     text-decoration: none;
 }
 
@@ -57,16 +57,21 @@ a{
 }
 
 .logo-mobile{
-    width: 5rem;
+    width: 6rem;
 }
 
 .logo-mobile:hover{
     cursor: pointer;
 }
 
+.menu-desktop{
+    display: none;
+}
+
 header{
     display: flex;
     background: #262626;
+    height: 5rem;
 }
 
 
@@ -113,7 +118,7 @@ header{
 
     .logo-desktop{
         display: block;
-        width: 5rem;
+        width: 8rem;
         margin-inline: auto;
     }
     

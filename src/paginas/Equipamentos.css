@@ -2,7 +2,6 @@
 
 .equipamentos {
     background: #0d0d0d;
-    text-align: center;
 }
 
 
@@ -34,19 +33,10 @@
     font-weight: 700;
     line-height: normal;
     padding: 3rem;
-}
-
-.dps{
-    color: #8284FA;
-    font-family: Inter;
-    font-size: 0.6rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     text-align: center;
 }
 
-.h2modal{
+.dps{
     color: #8284FA;
     font-family: Inter;
     font-size: 0.6rem;
@@ -85,6 +75,10 @@ button:hover{
         height: 25rem;
         margin-left: auto;
         margin-right: auto;
+        display: flex;
+        justify-content: center;
+            
+        flex-direction: column;
     }
     
     .eqs {
@@ -105,6 +99,7 @@ button:hover{
         margin-left: auto;
         margin-right: auto;
         margin-top: 4rem;
+        
     }
     
     .dp {
@@ -115,6 +110,7 @@ button:hover{
         font-weight: 700;
         line-height: normal;
         padding: 3rem;
+        text-align: center;
     }
     
     .dps{
@@ -124,17 +120,9 @@ button:hover{
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        text-align: center;
     }
 
-    .h2modal{
-        color: #8284FA;
-        font-family: Inter;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    
     .eq img{
         width: 17rem;
         margin-top: 1.2rem;
