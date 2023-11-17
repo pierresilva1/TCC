@@ -26,11 +26,9 @@
         text-align: center;
     }
     
-    .fcconteudo-desktop{
-        display: none;
-    }
     
-    .fcconteudo-mobile img{
+    
+    .fcconteudo img{
         width: 20rem;
         margin-left: 3rem;
     }
@@ -41,6 +39,7 @@
     .funcionamento {
         background: #0d0d0d;
     }
+    
     
     .pfc {
         text-align: center;
@@ -78,7 +77,5 @@
          
     }
 
-    .fcconteudo-mobile{
-        display: none;
-    }
+    
 }
