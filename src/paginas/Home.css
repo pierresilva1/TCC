@@ -206,6 +206,11 @@ button:hover a {
     font-weight: 700;
     line-height: normal;
 }
+
+.insta:hover{
+    text-decoration:underline;
+    color: #5a5cb4;
+}
 }
 
 @media(min-width: 900px) {
@@ -407,6 +412,11 @@ button:hover a {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+    }
+
+    .insta:hover{
+        text-decoration:underline;
+        color: #5a5cb4;
     }
 }
 
