@@ -21,8 +21,9 @@
     height: 11rem;
     border-end-end-radius: 8rem;
     padding-right: 2rem;
+    margin-top: 1rem;
     transition: translate .2s;
-    background: #2e2c29;
+    background: #262626;
     position: absolute;
 }
 

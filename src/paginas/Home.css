@@ -71,9 +71,10 @@ h3{
 }
 
 .Navegacao img{
-    margin-top: 2rem;
+        margin-top: 2rem;
         height: 12rem;
         width: 12rem;
+        margin-left: 4rem;
 }
 
 .btss {

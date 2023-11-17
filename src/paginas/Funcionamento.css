@@ -26,10 +26,15 @@
         text-align: center;
     }
     
-    
-    .fcconteudo{
-        display: flex;
+    .fcconteudo-desktop{
+        display: none;
     }
+    
+    .fcconteudo-mobile img{
+        width: 20rem;
+        margin-left: 3rem;
+    }
+    
     }
 
 @media(min-width: 900px) {
@@ -71,5 +76,9 @@
         margin-right: 6rem; 
         margin-left: 6rem;  
          
+    }
+
+    .fcconteudo-mobile{
+        display: none;
     }
 }

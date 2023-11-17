@@ -1,6 +1,7 @@
 
 import "./Index.css"
 import "./Equipamentos.css"
+import "./modals/Modals.css"
 import p4kre from '../img/p4kre.png'
 import fonte_bivolt from '../img/fonte_bivolt.png'
 import peltier from '../img/peltier.png'

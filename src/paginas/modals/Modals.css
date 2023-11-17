@@ -14,7 +14,8 @@
     position: fixed;
     top: 50%;
     width: 20rem;
-    margin-left: 2rem;
+    margin-left: 50%;
+    margin-right: 50%;
     transform: translate(-50%, -50%);
     background-color: #2e2c29;
     border-radius: 1rem;
@@ -26,11 +27,13 @@
 .conteudo{
     margin-top: 2rem;
     margin-left: 2rem;
+    
 }
 
 .amodals{
     display: flex;
     margin-top: 2rem;
+    justify-content: center;
 }
 
 .amodals button{
@@ -82,7 +85,15 @@
     text-align: left;
 }
 
-
+.h2modal{
+    color: #4ea8de;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 }
 
@@ -102,29 +113,32 @@
         position: fixed;
         top: 50%;
         width: 60rem;
-        margin-left: 40rem;
+        margin-left: 50%;
+        margin-right: 50%;
         transform: translate(-50%, -50%);
         background-color: #2e2c29;
         border-radius: 1rem;
     }
     
-    
-    
-    .conteudo{
-        margin-top: 2rem;
-        margin-left: 4rem;
+    .conteudo {
+        padding: 2rem;
     }
-    
     .amodals{
         margin-top: 2rem;
+        display: flex;
+        justify-content: center;
     }
 
     .amodals button{
         color: #f5f5f5;
         background: #0d0d0d;
-        width: 12rem;
         border-radius: 2rem;
         font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+        padding: .5rem;
     }
 
     .carrinho{
@@ -159,7 +173,7 @@
     }
     
     .modalsls p{
-        margin-right: 2rem;
+
         margin-top: 0.5rem;
         color: #4ea8de;
         text-align: center;
