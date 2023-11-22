@@ -7,7 +7,8 @@ import fonte_bivolt from '../img/fonte_bivolt.png'
 import peltier from '../img/peltier.png'
 import interruptor from '../img/interruptor.png'
 import rele from '../img/rele.png'
-import compre from '../img/compre-aqui.png'
+import botao from '../img/bt.png'
+import displayLCD from '../img/display-lcd.png'
 import Header from "./Header"
 import Peltier_Modal from "./modals/Peltier_Modal"
 import Rele_Modal from "./modals/Rele_Modal"
@@ -16,6 +17,8 @@ import Fonte_Modal from "./modals/Fonte_Modal"
 import Interruptor_Modal from "./modals/Interruptor_Modal"
 import { ShoppingCart } from '@phosphor-icons/react'
 import { useState } from 'react'
+import Display_Modal from "./modals/Display_Modal"
+import Botao_Modal from "./modals/Botao_Modal"
 
 
 
@@ -25,6 +28,8 @@ function Equipamento() {
   const [openInterruptor_Modal, setInterruptor_ModalOpen] = useState(false)
   const [openP4kre_Modal, setP4kre_ModalOpen] = useState(false)
   const [openFonte_Modal, setFonte_ModalOpen] = useState(false)
+  const [openDisplay_Modal, setDisplay_ModalOpen] = useState(false)
+  const [openBotao_Modal, setBotao_ModalOpen] = useState(false)
 
   return (
     <>
@@ -52,6 +57,16 @@ function Equipamento() {
             <div className="eq">
             <h2 className="dps">Fonte bivolt</h2>
             <button className="mdls" onClick={() => setFonte_ModalOpen(true)}><img src={fonte_bivolt} className="fonte" alt="" /></button>
+            </div>
+        </section>
+        <section className="eqs">
+            <div className="eq">
+            <h2 className="dps">Botão</h2>
+            <button className="mdls" onClick={() => setBotao_ModalOpen(true)}><img src={botao}  alt="" /></button>
+            </div>
+            <div className="eq">
+            <h2 className="dps">Display lcd i2c</h2>
+            <button className="mdls" onClick={() => setDisplay_ModalOpen(true)}><img src={displayLCD} alt="" /></button>
             </div>
         </section>
         <section className="eqs">
@@ -111,6 +126,26 @@ function Equipamento() {
                 </div>
                 <br />
             </Interruptor_Modal>
+            <Display_Modal isOpen={openDisplay_Modal} setDisplay_ModalOpen={() => setDisplay_ModalOpen(!openDisplay_Modal)}>
+                <div className="modalsls">
+                <h2 className="h2modal">Display lcd i2c</h2>
+                <img src={displayLCD} alt="" className="imgmodals"/>
+                <p>O display 16×2 serve para facilitar a conexão de uma interface homem-máquina (IHM). Basicamente ele funciona para exibir caracteres, letras e números de forma nítida e clara, que expõe informações relevantes para o programador.</p>
+                <br />
+                <a href="https://www.eletrogate.com/display-lcd-16x2-i2c-backlight-azul?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant" className="amodals"><button>Compre Aqui <ShoppingCart size={32} className="carrinho" /></button></a>
+                </div>
+                <br />
+            </Display_Modal>
+            <Botao_Modal isOpen={openBotao_Modal} setBotao_ModalOpen={() => setBotao_ModalOpen(!openBotao_Modal)}>
+                <div className="modalsls">
+                <h2 className="h2modal">Botão</h2>
+                <img src={botao} alt="" className="imgmodals"/>
+                <p>Através do botão podemos acionar as entradas digitais e fazer com que ao receber esta informação um comando de programação possa ser executado.</p>
+                <br />
+                <a href="https://www.eletrogate.com/push-button-chave-tactil-12x12x43mm" className="amodals"><button>Compre Aqui <ShoppingCart size={32} className="carrinho" /></button></a>
+                </div>
+                <br />
+            </Botao_Modal>
         </section>
         <br />
     </main>
