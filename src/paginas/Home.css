@@ -6,7 +6,7 @@
 .ph{
     margin-top: 1rem;
     font-family: Inter;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -17,7 +17,7 @@
 p{
     margin-top: 1rem;
     font-family: Inter;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -30,7 +30,7 @@ h1{
     color: #8284FA;
     text-align: center;
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -41,7 +41,7 @@ h2{
     padding: 1rem;
     color: #8284FA;
     font-family: Inter;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -53,7 +53,7 @@ h3{
     color: #8284FA;
     text-align: center;
     font-family: Inter;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -201,7 +201,7 @@ button:hover a {
     color: #8284FA;
     margin-top: 0.8rem;
     font-family: Inter;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -222,7 +222,7 @@ button:hover a {
     .ph{
         margin-top: 0.8rem;
         font-family: Inter;
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -242,21 +242,21 @@ button:hover a {
     }
     
     h1{
-        padding: 1.5rem;
+        padding: 1.7rem;
         color: #8284FA;
         text-align: center;
         font-family: Inter;
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
     }
     
     h2{
-        padding: 2rem;
+        padding-bottom: 3rem;
         color: #8284FA;
         font-family: Inter;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -268,7 +268,7 @@ button:hover a {
         color: #8284FA;
         text-align: center;
         font-family: Inter;
-        font-size: 1rem;
+        font-size: 1.4rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -289,8 +289,7 @@ button:hover a {
     
     .Navegacao img{
         margin-top: 2rem;
-        height: 12rem;
-        width: 22rem;
+        
     }
     
     .btss {

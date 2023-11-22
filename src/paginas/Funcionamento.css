@@ -8,7 +8,7 @@
         
         color: #8284FA;
         font-family: Inter;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -17,6 +17,7 @@
     }
     
     .h1fc {
+        padding-top: 4rem;
         color: #8284FA;
         font-family: Inter;
         font-size: 1.4rem;
@@ -45,7 +46,7 @@
         text-align: center;
         color: #8284FA;
         font-family: Inter;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -63,6 +64,7 @@
     }
     
     .fcconteudo{
+        margin-top: 7rem;
         display: flex;
     }
 
@@ -71,11 +73,9 @@
         margin-right: 5rem;
     }
     
-    .dpfc{
-        margin-right: 6rem; 
-        margin-left: 6rem;  
-         
+    .fcconteudo p{
+        margin-left: 12rem;
+        margin-right: 12rem;
     }
 
-    
 }

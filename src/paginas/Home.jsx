@@ -5,7 +5,7 @@ import Header from "./Header"
 import dg from '../img/dg.png'
 import dutra from '../img/dutra.png'
 import pierre from '../img/pierre.png'
-import pretatext from '../img/pretatext.png'
+import ex from '../img/explicacao.gif'
 
 
 
@@ -21,12 +21,12 @@ function Home() {
         <br />
         <section className="tudo">
             <h1>Bem-vindo(a)</h1>
-            <h3>Ao nosso projeto</h3>
+            <h2>Ao nosso projeto</h2>
             <section className="Navegacao">
-                <h2>TermoBlend</h2>
+                <h3>TermoBlend</h3>
                 
                 <p className="ph">O TermoBlend é uma caixa com porta copo que vai esquentar ou gelar a sua bebida, de acordo com a sua escolha.</p>
-                <img src={pretatext} alt="imagem do projeto" />
+                <img src={ex} alt="imagem do projeto" />
             </section>
             <section className="nos">
                 <h1>Quem somos ?</h1>
