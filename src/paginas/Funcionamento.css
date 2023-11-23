@@ -30,8 +30,8 @@
     
     
     .fcconteudo img{
-        width: 20rem;
-        margin-left: 3rem;
+        width: 18rem;
+        margin-left: 2rem;
     }
     
     }
@@ -69,13 +69,14 @@
     }
 
     .fcconteudo img{
-        width: 50rem;
-        margin-right: 5rem;
+        width: 30rem;
+        margin-right: 35rem;
+        margin-bottom: 2rem;
     }
     
     .fcconteudo p{
-        margin-left: 12rem;
-        margin-right: 12rem;
+        margin-left: 22rem;
+        margin-right: 22rem;
     }
 
 }
