@@ -20,6 +20,7 @@ function Objetivo() {
             <img src={projeto} alt="" />
         </section>
     </main>
+    
     </>
   )
   }
